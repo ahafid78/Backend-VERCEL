@@ -2,5 +2,5 @@
   "version": 2,
   "name": "pokemons",
   "builds": [{ "src": "app.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/api/login", "dest": "/app.js" }]
+  "routes": [{ "src": "/api/pokemons/", "dest": "/app.js" }]
 }
